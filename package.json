@@ -1,5 +1,5 @@
 {
-  "name": "react-email-turborepo-example",
+  "name": "react-email-turborepo-pnpm-example",
   "private": true,
   "scripts": {
     "build": "turbo build",

@@ -22,11 +22,11 @@ coverage
 .vercel
 
 # Build Outputs
+.react-email/
 .next/
 out/
 build
 dist
-
 
 # Debug
 npm-debug.log*
