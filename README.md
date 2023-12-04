@@ -1,6 +1,6 @@
-# React Email with Turborepo + pnpm
+# React Email + Turborepo + pnpm
 
-This example shows how to use React Email with [Turborepo](https://turbo.build) + [pnpm](https://pnpm.io).
+This example shows how to use React Email with [Turborepo](https://turbo.build) + [pnpm](https://pnpm.io/pt/).
 
 ### Structure
 
@@ -30,4 +30,3 @@ pnpm dev
 
 ## License
 
-MIT License
