@@ -1,5 +1,5 @@
 {
-  "name": "react-email",
+  "name": "transactional",
   "version": "1.0.0",
   "private": true,
   "workspaces": [
@@ -10,7 +10,7 @@
     "export": "email export"
   },
   "dependencies": {
-    "@react-email/components": "0.0.6",
-    "react-email": "1.9.3"
+    "@react-email/components": "0.0.12",
+    "react-email": "1.10.0"
   }
 }
