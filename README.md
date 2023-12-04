@@ -1,13 +1,13 @@
-# React Email with Turborepo + pnpm
+# React Email with Turborepo + yarn
 
-This example shows how to use React Email with [Turborepo](https://turbo.build) + [pnpm](https://pnpm.io).
+This example shows how to use React Email with [Turborepo](https://turbo.build) + [yarn](https://yarnpkg.com).
 
 ### Structure
 
 This monorepo includes the following apps:
 
-- `apps/next`: a [Next.js](https://nextjs.org) app
-- `apps/react-email`: a [react.email](https://react.email) app
+- `apps/web`: a [Next.js](https://nextjs.org) app
+- `packages/transactional`: a package with [react.email](https://react.email) email templates
 
 ## Instructions
 
@@ -23,7 +23,7 @@ pnpm install
 pnpm dev
   ```
 
-4. Open URLs in the browser:
+3. Open URL in the browser:
 
 * http://localhost:3000
 * http://localhost:3001
