@@ -6,8 +6,8 @@ This example shows how to use React Email with [Turborepo](https://turbo.build) 
 
 This monorepo includes the following apps:
 
-- `apps/next`: a [Next.js](https://nextjs.org) app
-- `apps/react-email`: a [react.email](https://react.email) app
+- `apps/web`: a [Next.js](https://nextjs.org) app
+- `packages/transactional`: a package with [react.email](https://react.email) email templates
 
 ## Instructions
 
@@ -23,10 +23,11 @@ pnpm install
 pnpm dev
   ```
 
-4. Open URLs in the browser:
+3. Open URL in the browser:
 
 * http://localhost:3000
 * http://localhost:3001
 
 ## License
 
+MIT License
