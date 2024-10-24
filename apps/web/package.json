@@ -9,10 +9,10 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@react-email/components": "0.0.15",
-    "next": "^14.0.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@react-email/components": "0.0.25",
+    "next": "^15.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^14.0.2",

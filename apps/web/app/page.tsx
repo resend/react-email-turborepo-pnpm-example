@@ -1,11 +1,9 @@
-import { render } from '@react-email/components';
+import { render } from "@react-email/components";
 
-import { VercelInviteUserEmail } from 'transactional/emails/vercel-invite-user';
+import { VercelInviteUserEmail } from "transactional/emails/vercel-invite-user";
 
-export default function Page(): JSX.Element {
-  const emailHTML = render(VercelInviteUserEmail({ }));
+export default async function Page() {
+  const emailHTML = await render(<VercelInviteUserEmail />);
 
-  return (
-    <div dangerouslySetInnerHTML={{ __html: emailHTML }} />
-  );
+  return <div dangerouslySetInnerHTML={{ __html: emailHTML }} />;
 }
