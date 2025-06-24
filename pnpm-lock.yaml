@@ -46,7 +46,7 @@ importers:
     dependencies:
       '@react-email/components':
         specifier: 0.0.15
-        version: 0.0.15(@types/react@18.3.23)(react-email@4.0.16)(react@18.3.1)
+        version: 0.0.15(@types/react@18.3.23)(react-email@4.0.17)(react@18.3.1)
       next:
         specifier: ^14.0.3
         version: 14.0.3(@babel/core@7.23.5)(react-dom@18.3.1)(react@18.3.1)
@@ -62,7 +62,7 @@ importers:
         version: 14.0.2
       '@types/eslint':
         specifier: ^8.44.7
-        version: 8.44.7
+        version: 8.56.12
       '@types/node':
         specifier: ^20.0.0
         version: 20.11.19
@@ -2409,7 +2409,7 @@ packages:
       - react-email
     dev: false
 
-  /@react-email/components@0.0.15(@types/react@18.3.23)(react-email@4.0.16)(react@18.3.1):
+  /@react-email/components@0.0.15(@types/react@18.3.23)(react-email@4.0.17)(react@18.3.1):
     resolution: {integrity: sha512-jXfKiuyi94JBYfPVptEUwF57nRCvhEZIfyl2LqbL53fKsMrGlcjlN921iNnx1z41GAJOqZ8LPogeix3Iid23zw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -2428,7 +2428,7 @@ packages:
       '@react-email/html': 0.0.7(react@18.3.1)
       '@react-email/img': 0.0.7(react@18.3.1)
       '@react-email/link': 0.0.7(react@18.3.1)
-      '@react-email/markdown': 0.0.8(react-email@4.0.16)(react@18.3.1)
+      '@react-email/markdown': 0.0.8(react-email@4.0.17)(react@18.3.1)
       '@react-email/preview': 0.0.8(react@18.3.1)
       '@react-email/render': 0.0.12
       '@react-email/row': 0.0.7(react@18.3.1)
@@ -2613,13 +2613,13 @@ packages:
       - react-email
     dev: false
 
-  /@react-email/markdown@0.0.8(react-email@4.0.16)(react@18.3.1):
+  /@react-email/markdown@0.0.8(react-email@4.0.17)(react@18.3.1):
     resolution: {integrity: sha512-x/2iTWskE0XoM13Rx80ckwbWaWdS6koYvxW6PHkOJ/k88NPnDIm+TaYvvg2DYSFJAUI0gK/LmIwenbebgNDS+w==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: 18.2.0
     dependencies:
-      md-to-react-email: 4.1.0(react-email@4.0.16)(react@18.3.1)
+      md-to-react-email: 4.1.0(react-email@4.0.17)(react@18.3.1)
       react: 18.3.1
     transitivePeerDependencies:
       - react-email
@@ -2893,29 +2893,33 @@ packages:
   /@types/eslint-scope@3.7.7:
     resolution: {integrity: sha512-MzMFlSLBqNF2gcHWO0G1vP/YQyfvrxZ0bF+u7mzUdZ1/xK4A4sru+nraZz5i3iEIk1l1uyicaDVTB4QbbEkAYg==}
     dependencies:
-      '@types/eslint': 8.44.7
-      '@types/estree': 1.0.5
+      '@types/eslint': 9.6.1
+      '@types/estree': 1.0.8
     dev: false
 
-  /@types/eslint@8.44.7:
-    resolution: {integrity: sha512-f5ORu2hcBbKei97U73mf+l9t4zTGl74IqZ0GQk4oVea/VS8tQZYkUveSYojk+frraAVYId0V2WC9O4PTNru2FQ==}
+  /@types/eslint@8.56.12:
+    resolution: {integrity: sha512-03ruubjWyOHlmljCVoxSuNDdmfZDzsrrz0P2LeJsOXr+ZwFQ+0yQIwNCwt/GYhV7Z31fgtXJTAEs+FYlEL851g==}
     dependencies:
-      '@types/estree': 1.0.5
-      '@types/json-schema': 7.0.12
+      '@types/estree': 1.0.8
+      '@types/json-schema': 7.0.15
+    dev: true
 
-  /@types/estree@1.0.5:
-    resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
+  /@types/eslint@9.6.1:
+    resolution: {integrity: sha512-FXx2pKgId/WyYo2jXw63kk7/+TY7u7AziEJxJAnSFzHlqTAS3Ync6SvgYAN/k4/PQpnnVuzoMuVnByKK2qp0ag==}
+    dependencies:
+      '@types/estree': 1.0.8
+      '@types/json-schema': 7.0.15
+    dev: false
 
   /@types/estree@1.0.8:
     resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
-    dev: false
 
   /@types/json-schema@7.0.12:
     resolution: {integrity: sha512-Hr5Jfhc9eYOQNPYO5WLDq/n4jqijdHNlDXjuAQkkt+mWdQR+XJToOHrsD4cPaMXpn6KO7y2+wM8AZEs8VpBLVA==}
+    dev: true
 
   /@types/json-schema@7.0.15:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
-    dev: false
 
   /@types/json5@0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
@@ -3226,7 +3230,7 @@ packages:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.1)
-      '@types/json-schema': 7.0.12
+      '@types/json-schema': 7.0.15
       '@types/semver': 7.5.6
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
@@ -3246,7 +3250,7 @@ packages:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
       '@eslint-community/eslint-utils': 4.4.0(eslint@8.57.1)
-      '@types/json-schema': 7.0.12
+      '@types/json-schema': 7.0.15
       '@types/semver': 7.5.6
       '@typescript-eslint/scope-manager': 6.13.1
       '@typescript-eslint/types': 6.13.1
@@ -6236,7 +6240,7 @@ packages:
       react-email: 2.1.0(@babel/core@7.23.5)(eslint@9.29.0)
     dev: false
 
-  /md-to-react-email@4.1.0(react-email@4.0.16)(react@18.3.1):
+  /md-to-react-email@4.1.0(react-email@4.0.17)(react@18.3.1):
     resolution: {integrity: sha512-aQvj4dCuy0wmBVvSB377qTErlpjN5Pl61+5v+B8Z76KoxOgKhbzvK3qnO94eOsuGSWwI+9n4zb3xD3/MypxM4w==}
     peerDependencies:
       react: 18.x
@@ -6244,7 +6248,7 @@ packages:
     dependencies:
       marked: 7.0.4
       react: 18.3.1
-      react-email: 4.0.16(@babel/core@7.23.5)(react-dom@18.3.1)(react@18.3.1)
+      react-email: 4.0.17(@babel/core@7.23.5)(react-dom@18.3.1)(react@18.3.1)
     dev: false
 
   /meow@7.1.1:
@@ -6356,7 +6360,6 @@ packages:
 
   /minimist@1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
-    dev: true
 
   /minipass@7.0.4:
     resolution: {integrity: sha512-jYofLM5Dam9279rdkWzqHozUo4ybjdZmCsDHePy5V/PbBcVMiSZR97gmAy45aqi8CK1lG2ECd356FU86avfwUQ==}
@@ -7084,8 +7087,8 @@ packages:
       - webpack-cli
     dev: false
 
-  /react-email@4.0.16(@babel/core@7.23.5)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-auhFU+nQxAkKkP6lQhPyGsa9exwfUEzp2BwZnjHokCwphZlg30tu4t1LgdKRwGPYsi7XNGy6asbVLAUhOVpzzg==}
+  /react-email@4.0.17(@babel/core@7.23.5)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-Wppdxgio/QKNe3piccIhk6jvgiLwfOTAwud5t/NlWL8wepsirgXo09OyZCz62Qb9flFNBw+Hz5ahOkpk3JaizQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     dependencies:
@@ -7103,6 +7106,7 @@ packages:
       normalize-path: 3.0.0
       ora: 8.2.0
       socket.io: 4.8.1
+      tsconfig-paths: 4.2.0
     transitivePeerDependencies:
       - '@babel/core'
       - '@opentelemetry/api'
@@ -7389,7 +7393,7 @@ packages:
     resolution: {integrity: sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg==}
     engines: {node: '>= 10.13.0'}
     dependencies:
-      '@types/json-schema': 7.0.12
+      '@types/json-schema': 7.0.15
       ajv: 6.12.6
       ajv-keywords: 3.5.2(ajv@6.12.6)
     dev: false
@@ -7785,7 +7789,6 @@ packages:
   /strip-bom@3.0.0:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
-    dev: true
 
   /strip-final-newline@2.0.0:
     resolution: {integrity: sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA==}
@@ -8060,6 +8063,15 @@ packages:
       strip-bom: 3.0.0
     dev: true
 
+  /tsconfig-paths@4.2.0:
+    resolution: {integrity: sha512-NoZ4roiN7LnbKn9QqE1amc9DJfzvZXxF4xDavcOWt1BPkdx+m+0gJuPM+S0vCe7zTJMYUP0R8pO2XMr+Y8oLIg==}
+    engines: {node: '>=6'}
+    dependencies:
+      json5: 2.2.3
+      minimist: 1.2.8
+      strip-bom: 3.0.0
+    dev: false
+
   /tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
     dev: true
@@ -8329,7 +8341,7 @@ packages:
         optional: true
     dependencies:
       '@types/eslint-scope': 3.7.7
-      '@types/estree': 1.0.5
+      '@types/estree': 1.0.8
       '@webassemblyjs/ast': 1.11.6
       '@webassemblyjs/wasm-edit': 1.11.6
       '@webassemblyjs/wasm-parser': 1.11.6
