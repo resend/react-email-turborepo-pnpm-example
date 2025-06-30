@@ -11,7 +11,7 @@
     "@biomejs/biome": "2.0.6",
     "next": "14.2.30",
     "styled-jsx": "5.1.2",
-    "turbo": "1.10.16",
+    "turbo": "2.5.4",
     "typescript": "5.2.2"
   },
   "packageManager": "pnpm@8.15.9"
