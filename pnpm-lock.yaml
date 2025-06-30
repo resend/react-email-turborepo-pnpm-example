@@ -15,8 +15,8 @@ importers:
         specifier: 14.2.30
         version: 14.2.30(react-dom@18.3.1)(react@18.3.1)
       styled-jsx:
-        specifier: 5.1.2
-        version: 5.1.2(react@18.3.1)
+        specifier: 5.1.7
+        version: 5.1.7(react@18.3.1)
       turbo:
         specifier: 2.5.4
         version: 2.5.4
@@ -4068,13 +4068,13 @@ packages:
       client-only: 0.0.1
       react: 18.3.1
 
-  /styled-jsx@5.1.2(react@18.3.1):
-    resolution: {integrity: sha512-FI5r0a5ED2/+DSdG2ZRz3a4FtNQnKPLadauU5v76a9QsscwZrWggQKOmyxGGP5EWKbyY3bsuWAJYzyKaDAVAcw==}
+  /styled-jsx@5.1.7(react@18.3.1):
+    resolution: {integrity: sha512-HPLmEIYprxCeWDMLYiaaAhsV3yGfIlCqzuVOybE6fjF3SUJmH67nCoMDO+nAvHNHo46OfvpCNu4Rcue82dMNFg==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       '@babel/core': '*'
       babel-plugin-macros: '*'
-      react: '>= 16.8.0 || 17.x.x || ^18.0.0-0'
+      react: '>= 16.8.0 || 17.x.x || ^18.0.0-0 || ^19.0.0-0'
     peerDependenciesMeta:
       '@babel/core':
         optional: true
