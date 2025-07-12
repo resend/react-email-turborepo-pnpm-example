@@ -20,7 +20,7 @@
     "@types/node": "^20.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "eslint": "^8.53.0",
+    "eslint": "^9.0.0",
     "transactional": "workspace:*",
     "typescript": "^5.2.2"
   }
