@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.1.1",
-    "next": "15.3.5",
+    "next": "15.4.4",
     "styled-jsx": "5.1.7",
     "turbo": "2.5.4",
     "typescript": "5.8.3"
