@@ -4,21 +4,15 @@
   "scripts": {
     "build": "turbo build --filter=!react-email-client",
     "dev": "turbo dev --filter=!react-email-client",
-    "lint": "turbo lint --filter=!react-email-client",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "lint:fix": "biome check . --write",
+    "lint": "biome check ."
   },
   "devDependencies": {
-    "prettier": "^3.1.0",
-    "@typescript-eslint/eslint-plugin": "^7.0.0",
-    "@typescript-eslint/parser": "^7.0.0",
-    "@vercel/style-guide": "^5.1.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-config-turbo": "^1.10.12",
-    "eslint-plugin-only-warn": "^1.1.0",
-    "next": "^14.0.3",
-    "styled-jsx": "^5.1.2",
-    "typescript": "^5.2.2",
-    "turbo": "latest"
+    "@biomejs/biome": "2.1.1",
+    "next": "15.3.5",
+    "styled-jsx": "5.1.7",
+    "turbo": "2.5.4",
+    "typescript": "5.8.3"
   },
-  "packageManager": "pnpm@8.15.3"
+  "packageManager": "pnpm@10.13.1"
 }
