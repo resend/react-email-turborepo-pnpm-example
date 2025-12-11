@@ -5,23 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint . --max-warnings 0"
+    "start": "next start"
   },
   "dependencies": {
-    "@react-email/components": "0.3.1",
-    "next": "^15.0.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "@react-email/components": "1.0.1",
+    "next": "16.0.8",
+    "react": "19.2.1",
+    "react-dom": "19.2.1"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^15.0.0",
-    "@types/eslint": "^9.0.0",
-    "@types/node": "^20.0.0",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "eslint": "^8.53.0",
+    "@types/node": "20.0.0",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
     "transactional": "workspace:*",
-    "typescript": "^5.2.2"
+    "typescript": "5.2.2"
   }
 }
