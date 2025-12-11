@@ -2,11 +2,16 @@
   "name": "react-email-turborepo-pnpm-example",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev"
+    "build": "turbo build --filter=!react-email-client",
+    "dev": "turbo dev --filter=!react-email-client",
+    "lint:fix": "biome check . --write",
+    "lint": "biome check ."
   },
   "devDependencies": {
-    "turbo": "2.6.3",
+    "@biomejs/biome": "2.1.1",
+    "next": "15.3.5",
+    "styled-jsx": "5.1.7",
+    "turbo": "2.5.4",
     "typescript": "5.8.3"
   },
   "packageManager": "pnpm@10.13.1"
