@@ -23,6 +23,7 @@ coverage
 
 # Build Outputs
 .react-email/
+next-env.d.ts
 .next/
 out/
 build
