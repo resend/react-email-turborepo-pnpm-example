@@ -18,6 +18,6 @@
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
     "transactional": "workspace:*",
-    "typescript": "5.2.2"
+    "typescript": "5.9.3"
   }
 }
