@@ -14,7 +14,7 @@
     "react-dom": "19.2.1"
   },
   "devDependencies": {
-    "@types/node": "20.0.0",
+    "@types/node": "24.10.9",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
     "transactional": "workspace:*",
