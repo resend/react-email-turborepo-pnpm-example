@@ -1,4 +1,4 @@
-import { render } from '@react-email/components';
+import { render } from 'react-email';
 import VercelInviteUserEmail from 'transactional/emails/vercel-invite-user';
 
 export async function GET() {
