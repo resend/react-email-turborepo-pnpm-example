@@ -9,13 +9,13 @@
     "start": "email start -p 3001"
   },
   "dependencies": {
-    "@react-email/ui": "6.1.4",
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "react-email": "6.1.4"
   },
   "devDependencies": {
     "@react-email/preview-server": "5.2.10",
+    "@react-email/ui": "6.1.4",
     "@types/node": "25.0.0",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3"
