@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "turbo": "2.6.3",
-    "typescript": "5.8.3"
+    "typescript": "7.0.2"
   },
   "packageManager": "pnpm@11.3.0"
 }
