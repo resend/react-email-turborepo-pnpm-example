@@ -11,10 +11,10 @@
   "dependencies": {
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
-    "react-email": "6.1.4"
+    "react-email": "6.9.3"
   },
   "devDependencies": {
-    "@react-email/ui": "6.1.4",
+    "@react-email/ui": "6.9.3",
     "@types/node": "25.0.0",
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3"
