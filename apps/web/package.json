@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "next": "16.0.8",
-    "react-email": "6.1.4",
+    "react-email": "6.9.3",
     "react": "19.2.1",
     "react-dom": "19.2.1"
   },
