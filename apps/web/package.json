@@ -10,13 +10,13 @@
   "dependencies": {
     "next": "16.0.8",
     "react-email": "6.1.4",
-    "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
   },
   "devDependencies": {
     "@types/node": "20.0.0",
-    "@types/react": "19.2.7",
-    "@types/react-dom": "19.2.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
     "transactional": "workspace:*",
     "typescript": "5.2.2"
   }
